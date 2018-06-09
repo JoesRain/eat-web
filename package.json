@@ -1,0 +1,14 @@
+{
+  "name": "ie8",
+  "version": "1.0.0",
+  "description": "This project shows eat",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main"
+  },
+  "author": "yanzx",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

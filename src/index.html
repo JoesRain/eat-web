@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+        <meta HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate"> 
+        <meta HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT"> 
+        <meta HTTP-EQUIV="expires" CONTENT="0">
+        <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+        <title>美食旋律</title>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/common.css">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <link rel="shortcut icon" href="./image/rn_logo.ico" type="image/x-icon" />
+	</head>
+    <body>
+        <div>
+          <div id="header"></div>
+          <div id="menu"></div>
+          <div class="mainer clearfix row-fluid">
+            <div class="col_main" id="loadPageView">
+              
+            </div>
+          </div>
+          <div id="footer"></div>
+        </div>
+        <script>
+            var MainJS = 'app/controller/index';
+            var navActive = 0;
+            document.write('<script src="./js/lib/require.js"' + ' data-main=\"./js/main/common.js?rnd=' + Math.random() + "\"" + '><\/script>');
+        </script>
+    </body>
+</html>

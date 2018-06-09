@@ -1,0 +1,78 @@
+html,
+body{
+  font-size: 14px;
+  font-family: 'Microsoft YaHei','Arial';
+  min-height: 100%;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { 
+  margin:0;
+  padding:0;
+}
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+fieldset, img { border:0; }
+button, input, select, textarea {
+  font-size:100%;
+  border:1px solid #d1d1d1;
+  border-radus:0; 
+  -webkit-border-radus:0;
+  -moz--border-radus:0;
+}
+select ,textarea{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+}
+textarea{
+  resize: none;
+}
+table { border-collapse:collapse; border-spacing:0; }
+.clearfix:after {
+	clear: both;
+}
+a{
+	color: #000;
+}
+a:hover {
+  text-decoration: none;
+}
+a:-webkit-any-link{
+	color: #000;
+}
+input,select{
+	min-height:26px !important;
+}
+
+header{
+	height: 40px;
+	line-height: 40px;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
+header span{
+	color: #FFF;
+}
+header a,
+header a:-webkit-any-link{
+    float: right;
+    color: #FFF;
+    font-size: 12px;
+    margin-right: 30px;
+}
+header a:hover{
+    color: #0080FF;
+}
+
+.mainer{
+  min-height: 600px;
+}
+
